@@ -59,6 +59,23 @@ nav img {
     width: 100%;
 }
 
+.swiper {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.swiper-pagination {
+    bottom: 10px !important;
+}
+
 .text-box{
     width: 90%;
     color: #ffffff;
@@ -75,7 +92,7 @@ nav img {
 
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 22px;
     color: #fff;
 }
 
@@ -136,6 +153,28 @@ nav .fa-times-circle {
     .nav-links ul {
         padding: 30px;
     }
+}
+
+/* ---- Entenda -----*/
+
+.Entenda {
+    padding-top: 110px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.paragrafos {
+    display: flex; /* Alinha os parágrafos lado a lado */
+    justify-content: center; /* Centraliza os itens na horizontal */
+    gap: 20px; /* Espaço entre os parágrafos */
+    margin-top: 20px;
+}
+
+.paragrafos p {
+    font-size: 25px;
+    margin: 0;
+    padding: 10px;
 }
 
 /*---- Serviços -----*/
