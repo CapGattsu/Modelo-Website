@@ -524,11 +524,11 @@ h3{
     margin-bottom: 1%;
 }
 
-.Conteudo-esquerda{
+.Conteudo-esquerda {
     flex-basis: 32%;
 }
 
-.Conteudo-esquerda h3{
+.Conteudo-esquerda h3 {
     background: #f44336;
     color: #fff;
     padding: 7px;
@@ -536,13 +536,45 @@ h3{
     margin-bottom: 20px;
 }
 
-.Conteudo-esquerda div{
+.categoria {
+    margin-bottom: 10px;
+}
+
+.categoria-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 8px;
     box-sizing: border-box;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 6px;
 }
+
+.dropdown {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #fafafa;
+    padding: 0 10px;
+    border-left: 2px solid #f44336;
+    margin-left: 10px;
+    border-radius: 0 0 6px 6px;
+}
+
+.dropdown a {
+    display: block;
+    padding: 8px 0;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown a:hover {
+    text-decoration: underline;
+}
+
+
 
 .miniformulario{
     border: 1px solid #ccc;
